@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-surface text-on-surface font-body antialiased; }
+h1, h2, h3, h4 { @apply font-display; }
+.material-symbols-outlined { font-family: 'Material Symbols Outlined'; font-weight: normal; font-style: normal; font-size: 20px; line-height: 1; display: inline-block; white-space: nowrap; -webkit-font-smoothing: antialiased; }
+.prose-bork h2 { @apply text-[22px] font-semibold mt-8 mb-3; }
+.prose-bork p { @apply text-base leading-7 text-on-surface-variant mb-4; }
+.prose-bork a { @apply text-primary underline; }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline: 2px solid #06B5F7; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } * { transition: none !important; } }
