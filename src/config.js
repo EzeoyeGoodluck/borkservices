@@ -8,12 +8,12 @@ export const CONFIG = {
   mobilePhone: "07459 000955",
   mobileTel: "+447459000955",
   whatsapp: "07378465065", // confirmed WhatsApp-only
-  addressLines: ["9 Littleton Street", "Leicester,"],
+  addressLines: ["9 Littleton Street", "Leicester,LE40BP"],
   regNo: "16052368",
 
   formEmail: "info@borkservices.co.uk",
   formCc: "", // optional second inbox,
-  mapQuery: "Bork Services Ltd, 9 Littleton Street, Leicester",
+  mapQuery: "Bork Services Ltd, 9 Littleton Street, Leicester LE40BP",
   googleReviewUrl: "https://g.page/r/YOUR_PLACE_ID/review", // after Google Business Profile exists
   year: new Date().getFullYear(),
 };
